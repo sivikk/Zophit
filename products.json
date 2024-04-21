@@ -5,7 +5,7 @@
       "fields": {
         "title": "Galaxy S10 5G",
         "price": 910.99,
-        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product1.jpeg" } } }
       }
     },
     {
@@ -13,7 +13,7 @@
       "fields": {
         "title": "Galaxy S10+",
         "price": 812.99,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product2.jpeg" } } }
       }
     },
     {
@@ -21,7 +21,7 @@
       "fields": {
         "title": "Galaxy S10",
         "price": 712.99,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product3.jpeg" } } }
       }
     },
     {
@@ -29,7 +29,7 @@
       "fields": {
         "title": "Galaxy S10e",
         "price": 622.99,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product4.jpeg" } } }
       }
     },
     {
@@ -37,7 +37,7 @@
       "fields": {
         "title": "Galaxy A2 Core",
         "price": 688.99,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product5.jpeg" } } }
       }
     },
     {
@@ -45,7 +45,7 @@
       "fields": {
         "title": "Galaxy M30",
         "price": 532.99,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product6.jpeg" } } }
       }
     },
     {
@@ -53,7 +53,7 @@
       "fields": {
         "title": "Galaxy M20",
         "price": 545.99,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product7.jpeg" } } }
       }
     },
     {
@@ -61,7 +61,7 @@
       "fields": {
         "title": "Galaxy M10",
         "price": 440.99,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/product8.jpeg" } } }
       }
     },
     {
@@ -74,7 +74,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "./images/product-9.jpeg"
+              "url": "./images/product9.jpeg"
             }
           }
         }
@@ -90,7 +90,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "./images/product-10.jpeg"
+              "url": "./images/product10.jpeg"
             }
           }
         }
@@ -106,7 +106,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "./images/product-11.jpeg"
+              "url": "./images/product11.jpeg"
             }
           }
         }
@@ -122,7 +122,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "./images/product-12.jpeg"
+              "url": "./images/product12.jpeg"
             }
           }
         }

@@ -1,181 +1,181 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --primaryColor: #f09d51;
-  --mainWhite: #fff;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --mainSpacing: 0.1rem;
-  --mainTransition: all 0.3s linear;
+  primaryColor: #f09d51;
+  mainWhite: #fff;
+  mainBlack: #222;
+  mainGrey: #ececec;
+  mainSpacing: 0.1rem;
+  mainTransition: all 0.3s linear;
 }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  boxsizing: borderbox;
 }
 body {
-  color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: "Lato", sans-serif;
+  color: ar(mainBlack);
+  background: ar(mainWhite);
+  fontfamily: "Lato", sansserif;
 }
-/* --------------- Navbar ---------------- */
-.navbar {
+/*  Nabar  */
+.nabar {
   position: sticky;
   top: 0;
   height: 60px;
   width: 100%;
   display: flex;
-  align-items: center;
+  alignitems: center;
   background: rgb(231, 226, 221);
-  z-index: 1;
+  zindex: 1;
 }
-.navbar-center {
+.nabarcenter {
   width: 100%;
-  max-width: 1170px;
+  maxwidth: 1170px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  alignitems: center;
+  justifycontent: spacebetween;
   padding: 0 1.5rem;
 }
-.nav-icon {
-  font-size: 1.5rem;
+.naicon {
+  fontsize: 1.5rem;
 }
-.cart-btn {
-  position: relative;
+.cartbtn {
+  position: relatie;
   cursor: pointer;
 }
-.cart-items {
+.cartitems {
   position: absolute;
-  top: -8px;
-  right: -8px;
-  background: var(--primaryColor);
+  top: 8px;
+  right: 8px;
+  background: ar(primaryColor);
   padding: 0 5px;
-  border-radius: 30%;
-  color: var(--mainWhite);
+  borderradius: 30%;
+  color: ar(mainWhite);
 }
-/* --------------- End of Navbar ---------------- */
-/* --------------- Hero ---------------- */
+/*  End of Nabar  */
+/*  Hero  */
 .hero {
-  min-height: calc(100vh - 60px);
-  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+  minheight: calc(100h  60px);
+  background: url("./images/herobcg.jpeg") center/coer norepeat;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  alignitems: center;
+  justifycontent: center;
 }
 .banner {
-  text-align: center;
+  textalign: center;
   background: rgba(255, 255, 255, 0.8);
-  display: inline-block;
+  display: inlineblock;
   padding: 2rem;
 }
-.banner-title {
-  font-size: 3.4rem;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 3rem;
+.bannertitle {
+  fontsize: 3.4rem;
+  texttransform: uppercase;
+  letterspacing: ar(mainSpacing);
+  marginbottom: 3rem;
 }
-.banner-btn {
+.bannerbtn {
   padding: 1rem 3rem;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  font-size: 1rem;
-  background: var(--primaryColor);
-  color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
-  transition: var(--mainTransition);
+  texttransform: uppercase;
+  letterspacing: ar(mainSpacing);
+  fontsize: 1rem;
+  background: ar(primaryColor);
+  color: ar(mainBlack);
+  border: 1px solid ar(primaryColor);
+  transition: ar(mainTransition);
   cursor: pointer;
 }
-.banner-btn:hover {
+.bannerbtn:hoer {
   background: transparent;
-  color: var(--primaryColor);
+  color: ar(primaryColor);
 }
-/* --------------- End of Hero ---------------- */
-/* --------------- Products ---------------- */
+/*  End of Hero  */
+/*  Products  */
 
 .products {
   padding: 4rem 0;
 }
-.section-title h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5rem;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+.sectiontitle h2 {
+  textalign: center;
+  fontsize: 2.5rem;
+  marginbottom: 5rem;
+  texttransform: capitalize;
+  letterspacing: ar(mainSpacing);
 }
-.products-center {
-  width: 90vw;
+.productscenter {
+  width: 90w;
   margin: 0 auto;
-  max-width: 1170px;
+  maxwidth: 1170px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  gridtemplatecolumns: repeat(autofit, minmax(260px, 1fr));
+  gridcolumngap: 1.5rem;
+  gridrowgap: 2rem;
 }
-.img-container {
-  position: relative;
-  overflow: hidden;
+.imgcontainer {
+  position: relatie;
+  oerflow: hidden;
 }
-.bag-btn {
+.bagbtn {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
+  background: ar(primaryColor);
   border: none;
-  text-transform: uppercase;
+  texttransform: uppercase;
   padding: 0.5rem 0.75rem;
-  letter-spacing: var(--mainSpacing);
-  font-weight: bold;
-  transition: var(--mainTransition);
+  letterspacing: ar(mainSpacing);
+  fontweight: bold;
+  transition: ar(mainTransition);
   transform: translateX(101%);
   cursor: pointer;
 }
-.bag-btn:hover {
-  color: var(--mainWhite);
+.bagbtn:hoer {
+  color: ar(mainWhite);
 }
-.fa-shopping-cart {
-  margin-right: 0.5rem;
+.fashoppingcart {
+  marginright: 0.5rem;
 }
-.img-container:hover .bag-btn {
+.imgcontainer:hoer .bagbtn {
   transform: translateX(0);
 }
-.product-img {
+.productimg {
   display: block;
   width: 100%;
-  min-height: 12rem;
-  transition: var(--mainTransition);
+  minheight: 12rem;
+  transition: ar(mainTransition);
 }
-.img-container:hover .product-img {
+.imgcontainer:hoer .productimg {
   opacity: 0.5;
 }
 
 .product h3 {
-  text-transform: capitalize;
-  font-size: 1.1rem;
-  margin-top: 1rem;
-  letter-spacing: var(--mainSpacing);
-  text-align: center;
+  texttransform: capitalize;
+  fontsize: 1.1rem;
+  margintop: 1rem;
+  letterspacing: ar(mainSpacing);
+  textalign: center;
 }
 
 .product h4 {
-  margin-top: 0.7rem;
-  letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
-  text-align: center;
+  margintop: 0.7rem;
+  letterspacing: ar(mainSpacing);
+  color: ar(primaryColor);
+  textalign: center;
 }
 
-/* ---------------End of Products ---------------- */
-/* --------------- Cart ---------------- */
-.cart-overlay {
+/* End of Products  */
+/*  Cart  */
+.cartoerlay {
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
-  transition: var(--mainTransition);
+  transition: ar(mainTransition);
   background: rgb(240, 157, 81, 0.5);
-  z-index: 2;
-  visibility: hidden;
+  zindex: 2;
+  isibility: hidden;
 }
 .cart {
   position: fixed;
@@ -183,79 +183,79 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  overflow: scroll;
-  z-index: 3;
+  oerflow: scroll;
+  zindex: 3;
   background: rgb(231, 226, 221);
   padding: 1.5rem;
-  transition: var(--mainTransition);
+  transition: ar(mainTransition);
   transform: translateX(100%);
 }
 .showCart {
   transform: translateX(0);
 }
 .transparentBcg {
-  visibility: visible;
+  isibility: isible;
 }
-@media screen and (min-width: 768px) {
+@media screen and (minwidth: 768px) {
   .cart {
-    width: 30vw;
-    min-width: 450px;
+    width: 30w;
+    minwidth: 450px;
   }
 }
 
-.close-cart {
-  font-size: 1.7rem;
+.closecart {
+  fontsize: 1.7rem;
   cursor: pointer;
 }
 .cart h2 {
-  text-transform: capitalize;
-  text-align: center;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 2rem;
+  texttransform: capitalize;
+  textalign: center;
+  letterspacing: ar(mainSpacing);
+  marginbottom: 2rem;
 }
-/*---------- Cart Item -------------------- */
-.cart-item {
+/* Cart Item  */
+.cartitem {
   display: grid;
-  align-items: center;
-  grid-template-columns: auto 1fr auto;
-  grid-column-gap: 1.5rem;
+  alignitems: center;
+  gridtemplatecolumns: auto 1fr auto;
+  gridcolumngap: 1.5rem;
   margin: 1.5rem 0;
 }
-.cart-item img {
+.cartitem img {
   width: 75px;
   height: 75px;
 }
-.cart-item h4 {
-  font-size: 0.85rem;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+.cartitem h4 {
+  fontsize: 0.85rem;
+  texttransform: capitalize;
+  letterspacing: ar(mainSpacing);
 }
-.cart-item h5 {
+.cartitem h5 {
   margin: 0.5rem 0;
-  letter-spacing: var(--mainSpacing);
+  letterspacing: ar(mainSpacing);
 }
-.item-amount {
-  text-align: center;
+.itemamount {
+  textalign: center;
 }
-.remove-item {
+.remoeitem {
   color: grey;
   cursor: pointer;
 }
-.fa-chevron-up,
-.fa-chevron-down {
-  color: var(--primaryColor);
+.facheronup,
+.facherondown {
+  color: ar(primaryColor);
   cursor: pointer;
 }
-/*---------- End of Cart Item -------------------- */
+/* End of Cart Item  */
 
-.cart-footer {
-  margin-top: 2rem;
-  letter-spacing: var(--mainSpacing);
-  text-align: center;
+.cartfooter {
+  margintop: 2rem;
+  letterspacing: ar(mainSpacing);
+  textalign: center;
 }
-.cart-footer h3 {
-  text-transform: capitalize;
-  margin-bottom: 1rem;
+.cartfooter h3 {
+  texttransform: capitalize;
+  marginbottom: 1rem;
 }
 
-/* --------------- End of Cart ---------------- */
+/*  End of Cart  */

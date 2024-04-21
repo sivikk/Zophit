@@ -1,2 +1,2 @@
-# online-shopping-site
-Shopping web site using javascript with all functionalities like shopping cart
+# onlineshoppingsite
+Shopping web site using jaascript with all functionalities like shopping cart
